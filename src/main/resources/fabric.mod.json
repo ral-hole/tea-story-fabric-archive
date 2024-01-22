@@ -3,15 +3,15 @@
 	"id": "tea-story",
 	"version": "${version}",
 	"name": "Tea Story",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "The Fabric edition of a Chinese style mod about tea and rice",
 	"authors": [
-		"Me!"
+		"Ral Hole"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/tea-story/icon.png",
 	"environment": "*",
 	"entrypoints": {

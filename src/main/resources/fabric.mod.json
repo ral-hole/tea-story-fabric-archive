@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "tea-story",
+	"id": "teastory",
 	"version": "${version}",
 	"name": "Tea Story",
 	"description": "The Fabric edition of a Chinese style mod about tea and rice",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/tea-story/icon.png",
+	"icon": "assets/teastory/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"tea-story.mixins.json"
+		"teastory.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.6",

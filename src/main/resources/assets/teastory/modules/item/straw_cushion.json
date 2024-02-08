@@ -1,6 +1,6 @@
 {
   "parent": "item/generator",
   "textures": {
-    "layer0": "tea-story:item/straw_cushion"
+    "layer0": "teastory:item/straw_cushion"
   }
 }

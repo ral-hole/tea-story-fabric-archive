@@ -1,5 +1,6 @@
 package cloud.lemonslice.teastory;
 
+import cloud.lemonslice.teastory.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -9,6 +10,7 @@ public class TeaStory implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
+	public static final String MOD_ID = "tea-story";
     public static final Logger LOGGER = LoggerFactory.getLogger("tea-story");
 
 	@Override
@@ -18,5 +20,6 @@ public class TeaStory implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
